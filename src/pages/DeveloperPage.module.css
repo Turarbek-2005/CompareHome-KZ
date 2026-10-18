@@ -1,0 +1,17 @@
+.title {
+  margin-top: 8px;
+  font-size: var(--t-xl);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.description {
+  margin: 8px 0 16px;
+  max-width: 60ch;
+}
+
+.source {
+  margin-top: 24px;
+  font-size: var(--t-xs);
+  color: var(--concrete);
+}

@@ -1,0 +1,151 @@
+/* Лист сравнения: колонки не уже 104 px; четвёртая уезжает вбок и листается со snap. */
+.scroller {
+  margin: 0 calc(var(--gutter) * -1);
+  padding: 0 var(--gutter);
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scroll-padding: 0 var(--gutter);
+}
+
+.sheet {
+  --col: minmax(96px, 1fr);
+  min-width: calc(var(--cols) * 96px + (var(--cols) - 1) * 10px);
+}
+
+.plans,
+.cells {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), var(--col));
+  column-gap: 10px;
+}
+
+.column {
+  position: relative;
+  scroll-snap-align: start;
+  padding-top: 8px;
+}
+
+/* Контуры стоят на общей линии, как на одном листе: разница в размере видна сразу. */
+.planBox {
+  display: flex;
+  align-items: flex-end;
+  height: 72px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.area {
+  margin-top: 8px;
+  font-size: var(--t-l);
+  font-weight: 650;
+}
+
+.caption {
+  font-size: var(--t-xs);
+  color: var(--concrete);
+  overflow-wrap: anywhere;
+}
+
+.caption a {
+  color: var(--graphite);
+}
+
+.remove {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  display: grid;
+  place-items: center;
+  width: var(--tap);
+  height: var(--tap);
+  border: 0;
+  background: none;
+  color: var(--concrete);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Подписи остаются у левого края, пока колонки листаются вбок. */
+.sticky {
+  position: sticky;
+  left: 0;
+  width: fit-content;
+  max-width: calc(100vw - var(--gutter) * 2);
+}
+
+.scaleLine {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 10px;
+  font-size: var(--t-xs);
+}
+
+.hint {
+  margin-top: 12px;
+  font-size: var(--t-xs);
+  color: var(--concrete);
+}
+
+.controls {
+  margin-top: 16px;
+}
+
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--tap);
+  font-size: var(--t-s);
+}
+
+.switch input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--yasawi);
+}
+
+.group {
+  margin-top: 20px;
+  border-top: 1.5px solid var(--graphite);
+}
+
+.groupTitle {
+  padding-top: 10px;
+  font-size: var(--t-s);
+  font-weight: 650;
+}
+
+.programs {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.row {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.label {
+  font-size: var(--t-xs);
+  color: var(--concrete);
+  margin-bottom: 4px;
+}
+
+.cell {
+  font-size: var(--t-s);
+  overflow-wrap: anywhere;
+}
+
+.missing {
+  color: var(--concrete);
+  font-size: var(--t-xs);
+}
+
+.footnote {
+  margin: 20px 0 12px;
+  font-size: var(--t-xs);
+  color: var(--concrete);
+  max-width: 60ch;
+}

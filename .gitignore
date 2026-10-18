@@ -1,0 +1,29 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+
+# secrets: service-role key and local overrides
+.env
+.env.*
+!.env.example
+
+# Android build outputs (the android/ project itself is committed)
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/captures/
+*.apk
+*.aab
+
+# browser automation artifacts
+.playwright-mcp/
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea/

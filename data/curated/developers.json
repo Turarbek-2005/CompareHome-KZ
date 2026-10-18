@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sensata",
+    "name": "Sensata Group",
+    "bin": null,
+    "founded_year": null,
+    "website": "https://sensata.kz",
+    "phone": "700",
+    "description": "Строит жилые комплексы в Астане и Алматы. Проекты в реестре оформлены на разные юрлица группы — их БИН указан в карточке каждого ЖК.",
+    "completed_count": null,
+    "source_url": "https://sensata.kz/projects",
+    "verified_at": "2026-10-17"
+  },
+  {
+    "id": "bi-group",
+    "name": "BI Group",
+    "bin": null,
+    "founded_year": null,
+    "website": "https://bi.group",
+    "phone": "360",
+    "description": "Строит жильё в Астане, Алматы, Шымкенте, Атырау и Караганде. Проекты в Астане оформлены на ТОО «BI Development Astana» (БИН 130940009587).",
+    "completed_count": null,
+    "source_url": "https://bi.group/ru/special/kvartiry",
+    "verified_at": "2026-10-17"
+  },
+  {
+    "id": "bazis-a",
+    "name": "BAZIS-A",
+    "bin": "960340000376",
+    "founded_year": null,
+    "website": "https://bazis.kz",
+    "phone": null,
+    "description": "Строит жилые комплексы в Алматы, Астане, Шымкенте и Атырау. Застройщик в реестре — ТОО «BAZIS-A Corp.».",
+    "completed_count": null,
+    "source_url": "https://sales.bazis.kz/",
+    "verified_at": "2026-10-17"
+  }
+]

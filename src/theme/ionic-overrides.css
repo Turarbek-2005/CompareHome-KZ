@@ -1,0 +1,92 @@
+/* Ionic — только каркас: навигация, шторки, кнопка «Назад». Внешний вид берём из токенов. */
+:root {
+  --ion-font-family: var(--font);
+  --ion-background-color: var(--paper);
+  --ion-background-color-rgb: 241, 243, 240;
+  --ion-text-color: var(--graphite);
+  --ion-text-color-rgb: 35, 40, 44;
+  --ion-border-color: var(--rule);
+  --ion-item-background: transparent;
+
+  --ion-color-primary: var(--yasawi);
+  --ion-color-primary-contrast: var(--yasawi-ink);
+  --ion-color-primary-shade: var(--yasawi);
+  --ion-color-primary-tint: var(--yasawi);
+
+  --ion-toolbar-background: var(--paper);
+  --ion-toolbar-color: var(--graphite);
+  --ion-toolbar-border-color: var(--rule);
+
+  --ion-tab-bar-background: var(--paper);
+  --ion-tab-bar-border-color: var(--rule);
+  --ion-tab-bar-color: var(--concrete);
+  --ion-tab-bar-color-selected: var(--yasawi);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-background-color-rgb: 28, 32, 35;
+    --ion-text-color-rgb: 228, 232, 229;
+  }
+}
+
+ion-content {
+  --background: var(--paper);
+  --color: var(--graphite);
+}
+
+/* Без тени Material под шапкой: границу рисуем линией, как на чертеже. */
+ion-header.header-md,
+ion-header {
+  box-shadow: none;
+}
+ion-header ion-toolbar {
+  --border-width: 0;
+  --padding-start: 4px;
+  --padding-end: 4px;
+}
+
+ion-tab-bar {
+  --border: 1px solid var(--rule);
+  height: 60px;
+}
+ion-tab-button {
+  --ripple-color: transparent;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+ion-tab-button ion-icon {
+  font-size: 22px;
+}
+ion-tab-button ion-badge {
+  --background: var(--graphite);
+  --color: var(--paper);
+  font-weight: 600;
+  min-width: 18px;
+}
+
+ion-back-button {
+  --color: var(--graphite);
+  --icon-font-size: 22px;
+  --ripple-color: transparent;
+}
+
+ion-modal.sheet {
+  --background: var(--paper-raised);
+  --border-radius: var(--radius-sheet);
+  --handle-background: var(--rule-strong);
+  --backdrop-opacity: 0.32;
+}
+
+ion-toast.app-toast {
+  --background: var(--graphite);
+  --color: var(--paper);
+  --border-radius: var(--radius-drafting);
+  --box-shadow: none;
+  font-family: var(--font);
+}
+
+ion-refresher-content {
+  --color: var(--concrete);
+}

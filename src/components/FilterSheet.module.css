@@ -1,0 +1,29 @@
+.body {
+  display: grid;
+  gap: 20px;
+  padding: 20px var(--gutter) 24px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: var(--t-l);
+  font-weight: 650;
+}
+
+.footer {
+  box-shadow: none;
+  padding: 12px var(--gutter) calc(12px + var(--ion-safe-area-bottom, 0px));
+  border-top: 1px solid var(--rule);
+  background: var(--paper-raised);
+}
+
+.footer button:disabled {
+  border-color: var(--rule-strong);
+  background: transparent;
+  color: var(--concrete);
+}

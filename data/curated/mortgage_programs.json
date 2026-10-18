@@ -1,0 +1,38 @@
+[
+  {
+    "id": "otbasy-nauryz",
+    "bank": "Отбасы банк",
+    "name": "Наурыз",
+    "rate": 9,
+    "rate_note": "7% для социально уязвимых категорий, состоящих на учёте нуждающихся в жилье. После накопления 50% суммы займа ставка снижается до 3,5–5%.",
+    "min_down_payment_pct": 20,
+    "reduced_down_payment_pct": 10,
+    "reduced_down_payment_note": "Для первичного жилья с чистовой отделкой",
+    "max_term_years": 19,
+    "max_amount_major": 36000000,
+    "max_amount_other": 30000000,
+    "housing_types": ["completed", "construction_kzhk"],
+    "note": "Для граждан РК и кандасов. Строящееся жильё — только по договору долевого участия с гарантией единого оператора (КЖК). Точные условия уточняйте в банке.",
+    "source_url": "https://hcsbk.kz/ru/to-get-a-loan/nauryz/",
+    "verified_at": "2026-10-17",
+    "sort": 1
+  },
+  {
+    "id": "otbasy-otau",
+    "bank": "Отбасы банк",
+    "name": "Отау",
+    "rate": 9,
+    "rate_note": "7% для социально уязвимых категорий, состоящих на учёте нуждающихся в жилье. После накопления 50% суммы займа ставка снижается до 3,5–5%.",
+    "min_down_payment_pct": 20,
+    "reduced_down_payment_pct": null,
+    "reduced_down_payment_note": null,
+    "max_term_years": 19,
+    "max_amount_major": 36000000,
+    "max_amount_other": 30000000,
+    "housing_types": ["completed", "construction_kzhk"],
+    "note": "Нужен депозит в Отбасы банке с накоплением от 1 млн ₸ и отсутствие жилья в собственности. Строящееся жильё — только с гарантией КЖК. Точные условия уточняйте в банке.",
+    "source_url": "https://hcsbk.kz/ru/to-get-a-loan/otau/",
+    "verified_at": "2026-10-17",
+    "sort": 2
+  }
+]

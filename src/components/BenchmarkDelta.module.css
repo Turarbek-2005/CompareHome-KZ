@@ -1,0 +1,7 @@
+.delta {
+  font-size: var(--t-xs);
+}
+
+.source {
+  color: var(--concrete);
+}

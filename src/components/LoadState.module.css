@@ -1,0 +1,39 @@
+.skeleton {
+  margin: 0;
+  padding: 0;
+}
+
+.skeleton li {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+  list-style: none;
+}
+
+.plan {
+  border: 1.5px dashed var(--rule-strong);
+}
+
+.lines {
+  display: grid;
+  gap: 8px;
+}
+
+.lines span {
+  height: 10px;
+  background: var(--rule);
+}
+
+.error {
+  display: grid;
+  justify-items: start;
+  gap: 12px;
+  padding: 24px 0;
+  max-width: 36ch;
+}
+
+.error p {
+  color: var(--pencil);
+}

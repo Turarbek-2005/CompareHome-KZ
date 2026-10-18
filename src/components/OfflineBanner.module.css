@@ -1,0 +1,7 @@
+.banner {
+  margin: 0;
+  padding: 8px var(--gutter);
+  background: var(--graphite);
+  color: var(--paper);
+  font-size: var(--t-xs);
+}

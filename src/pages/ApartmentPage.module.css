@@ -1,0 +1,70 @@
+.plan {
+  display: grid;
+  justify-items: start;
+  gap: 10px;
+  margin: 8px 0 20px;
+  padding: 20px 0 14px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.planCaption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  font-size: var(--t-xs);
+  color: var(--concrete);
+}
+
+.title {
+  font-size: var(--t-m);
+  font-weight: 600;
+}
+
+.price {
+  margin-top: 4px;
+  font-size: var(--t-xl);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.ppm2 {
+  margin-bottom: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.note {
+  margin-top: 6px;
+  font-size: var(--t-xs);
+  color: var(--concrete);
+}
+
+.actions {
+  display: grid;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.programs {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.yes {
+  font-weight: 600;
+  color: var(--yasawi);
+}
+
+.no {
+  font-weight: 600;
+}
+
+.links {
+  display: grid;
+  justify-items: start;
+  gap: 8px;
+  margin-top: 8px;
+}

@@ -1,0 +1,55 @@
+/*
+ * «Единый масштаб» — токены.
+ * Калька и графит как на чертеже; бирюза куполов Ясави для действий;
+ * жёлтый маркер — только для лучших значений в сравнении; красный карандаш — для рисков и ошибок.
+ */
+:root {
+  --paper: #f1f3f0;
+  --paper-raised: #f8f9f7;
+  --graphite: #23282c;
+  --concrete: #5f6763;
+  --rule: #cdd2ce;
+  --rule-strong: #a3aaa5;
+  --yasawi: #0b706f;
+  --yasawi-ink: #ffffff;
+  --yasawi-tint: rgba(11, 112, 111, 0.1);
+  --marker: #ffe15a;
+  --marker-ink: #23282c;
+  --pencil: #b23a2e;
+  --pencil-tint: rgba(178, 58, 46, 0.08);
+
+  --font: 'Geologica Variable', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* Шкала: 13 / 15 / 17 / 22 / 28 / 40 */
+  --t-xs: 13px;
+  --t-s: 15px;
+  --t-m: 17px;
+  --t-l: 22px;
+  --t-xl: 28px;
+  --t-xxl: 40px;
+
+  --gutter: 16px;
+  --radius-drafting: 2px;
+  --radius-sheet: 16px;
+  --tap: 44px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1c2023;
+    --paper-raised: #252a2e;
+    --graphite: #e4e8e5;
+    --concrete: #9aa29d;
+    --rule: #363c40;
+    --rule-strong: #535b60;
+    --yasawi: #4fb3ae;
+    --yasawi-ink: #10211f;
+    --yasawi-tint: rgba(79, 179, 174, 0.14);
+    --marker: #e6c63f;
+    --marker-ink: #1c2023;
+    --pencil: #e07a6e;
+    --pencil-tint: rgba(224, 122, 110, 0.1);
+  }
+}

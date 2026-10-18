@@ -1,0 +1,80 @@
+.map {
+  width: 100%;
+  height: 100%;
+  background: var(--paper);
+  font-family: var(--font);
+}
+
+/* Подложка — в тон кальке: без цвета, чтобы читались только метки. */
+.map :global(.leaflet-tile-pane) {
+  filter: grayscale(1) contrast(0.92) brightness(1.04);
+}
+
+@media (prefers-color-scheme: dark) {
+  .map :global(.leaflet-tile-pane) {
+    filter: grayscale(1) invert(1) brightness(0.82) contrast(0.9);
+  }
+}
+
+.map :global(.leaflet-control-attribution) {
+  background: color-mix(in srgb, var(--paper) 85%, transparent);
+  color: var(--concrete);
+  font-size: 10px;
+}
+
+.map :global(.leaflet-control-attribution a) {
+  color: var(--concrete);
+}
+
+.pin {
+  display: flex !important;
+  align-items: center;
+  gap: 6px;
+  width: max-content !important;
+  height: auto !important;
+  background: none;
+  border: 0;
+}
+
+.square {
+  display: block;
+  flex: none;
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--graphite);
+  background: var(--paper);
+}
+
+.kzhk_guarantee,
+.completed {
+  background: var(--yasawi);
+  border-color: var(--yasawi);
+}
+
+.bank {
+  background: var(--graphite);
+}
+
+.unknown {
+  border-style: dashed;
+}
+
+.labelsHidden .label {
+  display: none;
+}
+
+/* Без подписи квадрат крупнее — в него проще попасть пальцем. */
+.labelsHidden .square {
+  width: 16px;
+  height: 16px;
+}
+
+.label {
+  padding: 1px 5px;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  color: var(--graphite);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}

@@ -1,0 +1,35 @@
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.square {
+  display: grid;
+  place-items: center;
+  width: var(--tap);
+  height: var(--tap);
+  padding: 0;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-drafting);
+  background: transparent;
+  color: var(--graphite);
+  cursor: pointer;
+}
+
+.toggle[aria-pressed='true'],
+.square[aria-pressed='true'] {
+  border-color: var(--yasawi);
+  background: var(--yasawi-tint);
+  color: var(--yasawi);
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+}

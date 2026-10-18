@@ -1,0 +1,24 @@
+/* Маркер «проводят» слева направо — единственная анимация при открытии сравнения. */
+.marker {
+  color: var(--marker-ink);
+  font-weight: 600;
+  padding: 1px 4px;
+  margin: 0 -4px;
+  background-image: linear-gradient(var(--marker), var(--marker));
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+  background-size: 100% 78%;
+  border-radius: 1px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  animation: sweep 420ms var(--ease) both;
+}
+
+@keyframes sweep {
+  from {
+    background-size: 0% 78%;
+  }
+  to {
+    background-size: 100% 78%;
+  }
+}

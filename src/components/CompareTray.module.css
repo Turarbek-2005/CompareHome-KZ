@@ -1,0 +1,27 @@
+.footer {
+  box-shadow: none;
+}
+
+.tray {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 12px;
+  padding: 8px var(--gutter);
+  border-top: 1px solid var(--rule);
+  background: var(--paper);
+}
+
+.plans {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  min-height: 40px;
+  overflow: hidden;
+}
+
+.count {
+  font-size: var(--t-xs);
+  color: var(--concrete);
+  font-variant-numeric: tabular-nums;
+}

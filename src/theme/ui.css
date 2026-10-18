@@ -1,0 +1,147 @@
+/* Общие элементы: кнопки и чипы. Скругление 2 px — «чертёжное», у шторок своё. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: var(--tap);
+  padding: 0 16px;
+  border: 1.5px solid var(--graphite);
+  border-radius: var(--radius-drafting);
+  background: transparent;
+  color: var(--graphite);
+  font-size: var(--t-s);
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 120ms var(--ease),
+    color 120ms var(--ease);
+}
+
+.btn:active {
+  background: var(--yasawi-tint);
+}
+
+.btn-primary {
+  border-color: var(--yasawi);
+  background: var(--yasawi);
+  color: var(--yasawi-ink);
+}
+
+.btn-primary:active {
+  background: var(--yasawi);
+  opacity: 0.85;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-quiet {
+  min-height: var(--tap);
+  padding: 0 4px;
+  border: 0;
+  background: none;
+  color: var(--yasawi);
+  font-size: var(--t-s);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-icon {
+  display: inline-grid;
+  place-items: center;
+  width: var(--tap);
+  height: var(--tap);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--graphite);
+  cursor: pointer;
+}
+
+.btn-icon ion-icon {
+  font-size: 22px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-drafting);
+  background: transparent;
+  color: var(--graphite);
+  font-size: var(--t-s);
+  cursor: pointer;
+}
+
+.chip[aria-pressed='true'] {
+  border-color: var(--yasawi);
+  background: var(--yasawi-tint);
+  color: var(--yasawi);
+  font-weight: 600;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+
+.field label,
+.field-label {
+  font-size: var(--t-xs);
+  color: var(--concrete);
+}
+
+.input {
+  width: 100%;
+  min-height: var(--tap);
+  padding: 0 12px;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-drafting);
+  background: var(--paper-raised);
+  color: var(--graphite);
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+}
+
+.input:focus {
+  outline: 2px solid var(--yasawi);
+  outline-offset: -1px;
+  border-color: var(--yasawi);
+}
+
+.section-title {
+  font-size: var(--t-m);
+  font-weight: 600;
+  margin: 24px 0 8px;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
+  margin: 0;
+}
+
+.facts dt,
+.facts dd {
+  margin: 0;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.facts dt {
+  color: var(--concrete);
+  padding-right: 12px;
+}
+
+.facts dd {
+  font-variant-numeric: tabular-nums;
+}

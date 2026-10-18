@@ -1,0 +1,60 @@
+.title {
+  margin-top: 8px;
+  font-size: var(--t-xl);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+}
+
+.price {
+  display: grid;
+  gap: 4px;
+  margin: 16px 0;
+}
+
+.priceLabel {
+  font-size: var(--t-xs);
+  color: var(--concrete);
+}
+
+.priceValue {
+  font-size: var(--t-l);
+  font-weight: 650;
+}
+
+.mapFigure {
+  margin: 20px 0 0;
+}
+
+/* dt/dd парами в обёртке — сетка .facts раскладывает их в две колонки. */
+.fact {
+  display: contents;
+}
+
+.map {
+  height: 180px;
+}
+
+.mapNote {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--concrete);
+}
+
+.roomsTitle {
+  margin-top: 16px;
+  font-size: var(--t-s);
+  font-weight: 600;
+  color: var(--concrete);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.source {
+  margin-top: 40px;
+  font-size: var(--t-xs);
+  color: var(--concrete);
+}

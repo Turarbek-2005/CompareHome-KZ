@@ -1,0 +1,38 @@
+.select {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  padding: 0 12px;
+}
+
+.value {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--t-s);
+  font-weight: 600;
+  color: var(--yasawi);
+}
+
+.chevron {
+  width: 12px;
+  height: 12px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+}
+
+/* Сам select прозрачен поверх подписи: касание открывает системный список. */
+.select select {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+.select:focus-within {
+  outline: 2px solid var(--yasawi);
+  outline-offset: -2px;
+}

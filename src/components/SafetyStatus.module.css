@@ -1,0 +1,55 @@
+.glyph {
+  display: inline-block;
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border: 1.5px solid var(--graphite);
+}
+
+.kzhk_guarantee {
+  background: var(--yasawi);
+  border-color: var(--yasawi);
+}
+
+.bank {
+  background: var(--graphite);
+}
+
+.akimat_permit {
+  background: transparent;
+}
+
+.completed {
+  background: var(--yasawi);
+  border-color: var(--yasawi);
+  border-radius: 50%;
+}
+
+.unknown {
+  border-style: dashed;
+  border-color: var(--concrete);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--t-xs);
+  color: var(--graphite);
+}
+
+.details {
+  display: grid;
+  gap: 6px;
+  padding: 14px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--t-m);
+  font-weight: 600;
+}

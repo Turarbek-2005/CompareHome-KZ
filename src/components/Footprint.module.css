@@ -1,0 +1,50 @@
+.footprint {
+  display: block;
+  overflow: visible;
+  color: var(--graphite);
+}
+
+.wall {
+  fill: none;
+  stroke: currentColor;
+}
+
+.partition line {
+  stroke: currentColor;
+  stroke-width: 1;
+}
+
+.roomNo {
+  fill: var(--concrete);
+  font-size: 12px;
+  font-variation-settings: 'SHRP' 100;
+}
+
+.cellLabel {
+  fill: var(--concrete);
+  font-size: 11px;
+}
+
+.dimension line {
+  stroke: var(--concrete);
+  stroke-width: 1;
+}
+
+.dimText {
+  fill: var(--concrete);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.scaleBar {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--concrete);
+  font-size: var(--t-xs);
+}
+
+.scaleBar line {
+  stroke: currentColor;
+  stroke-width: 1;
+}

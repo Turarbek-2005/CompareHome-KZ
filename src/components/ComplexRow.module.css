@@ -1,0 +1,40 @@
+.row {
+  list-style: none;
+  border-bottom: 1px solid var(--rule);
+}
+
+.link {
+  display: grid;
+  gap: 4px;
+  padding: 16px 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.name {
+  font-size: var(--t-m);
+  font-weight: 650;
+}
+
+.developer,
+.count {
+  font-size: var(--t-xs);
+  color: var(--concrete);
+}
+
+.plans {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 6px;
+}
+
+.more {
+  font-size: var(--t-xs);
+  color: var(--concrete);
+}
+
+.price {
+  font-size: var(--t-xs);
+}

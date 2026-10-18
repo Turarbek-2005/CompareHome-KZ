@@ -1,0 +1,210 @@
+{
+  "collected_at": "2026-10-17",
+  "groups": [
+    {
+      "complex_id": "sensata-nygmet",
+      "source_url": "https://sensata.kz/#/catalog/house/141595/list?filter=property.status:AVAILABLE",
+      "finishing": "whitebox",
+      "units": [
+        { "unit_no": "2", "rooms": 2, "area": 73.5, "price": 70560000, "floor": 2 },
+        { "unit_no": "26", "rooms": 2, "area": 56.32, "price": 54067200, "floor": 2 },
+        { "unit_no": "5", "rooms": 2, "area": 73.08, "price": 70887600, "floor": 3 },
+        { "unit_no": "6", "rooms": 4, "area": 122.55, "price": 110295000, "floor": 3 },
+        { "unit_no": "7", "rooms": 4, "area": 134, "price": 117920000, "floor": 4 },
+        { "unit_no": "21", "rooms": 4, "area": 123.09, "price": 107088300, "floor": 8 }
+      ]
+    },
+    {
+      "complex_id": "sensata-shejire",
+      "source_url": "https://sensata.kz/#/catalog/house/138701/list?filter=property.status:AVAILABLE",
+      "finishing": "whitebox",
+      "units": [
+        { "unit_no": "23", "rooms": 1, "area": 37.09, "price": 29672000, "floor": 6 },
+        { "unit_no": "7", "rooms": 2, "area": 55.72, "price": 42347200, "floor": 3 },
+        { "unit_no": "16", "rooms": 4, "area": 108.37, "price": 80735650, "floor": 5 },
+        { "unit_no": "31", "rooms": 4, "area": 108.25, "price": 81187500, "floor": 8 },
+        { "unit_no": "5", "rooms": 4, "area": 122.74, "price": 85918000, "floor": 2 },
+        { "unit_no": "30", "rooms": 4, "area": 121.77, "price": 94980600, "floor": 7 }
+      ]
+    },
+    {
+      "complex_id": "sensata-gasyr",
+      "source_url": "https://sensata.kz/#/catalog/house/136214/list?filter=property.status:AVAILABLE",
+      "finishing": null,
+      "units": [
+        { "unit_no": "4", "rooms": 2, "area": 61.6, "price": 39116000, "floor": 1 },
+        { "unit_no": "3", "rooms": 2, "area": 63.5, "price": 40322500, "floor": 1 },
+        { "unit_no": "48", "rooms": 3, "area": 83.1, "price": 55676999, "floor": 2 },
+        { "unit_no": "45", "rooms": 4, "area": 104.6, "price": 67467000, "floor": 1 },
+        { "unit_no": "10", "rooms": 4, "area": 106.4, "price": 70756000, "floor": 3 },
+        { "unit_no": "35", "rooms": 4, "area": 106.9, "price": 71088500, "floor": 8 }
+      ]
+    },
+    {
+      "complex_id": "sensata-grace-garden",
+      "source_url": "https://sensata.kz/#/catalog/house/135855/list?filter=property.status:AVAILABLE",
+      "finishing": "rough",
+      "units": [
+        { "unit_no": "54", "rooms": 4, "area": 154.22, "price": 299957900, "floor": 10 },
+        { "unit_no": "51", "rooms": 4, "area": 155.09, "price": 300099150, "floor": 9 },
+        { "unit_no": "47", "rooms": 4, "area": 171.1, "price": 317390500, "floor": 8 },
+        { "unit_no": "32", "rooms": 5, "area": 172.64, "price": 287445600, "floor": 3 },
+        { "unit_no": "6", "rooms": 5, "area": 184.83, "price": 329921550, "floor": 4 }
+      ]
+    },
+    {
+      "complex_id": "sensata-sanara",
+      "source_url": "https://sensata.kz/#/catalog/house/134376/list?filter=property.status:AVAILABLE",
+      "finishing": null,
+      "units": [
+        { "unit_no": "28", "rooms": 4, "area": 139.33, "price": 111464000, "floor": 8 },
+        { "unit_no": "4", "rooms": 4, "area": 141.29, "price": 108793300, "floor": 2 },
+        { "unit_no": "1", "rooms": 4, "area": 144, "price": 108720000, "floor": 2 },
+        { "unit_no": "13", "rooms": 4, "area": 142.1, "price": 110838000, "floor": 5 }
+      ]
+    },
+    {
+      "complex_id": "sensata-bestogai",
+      "source_url": "https://sensata.kz/#/catalog/house/133977/list?filter=property.status:AVAILABLE",
+      "finishing": null,
+      "units": [
+        { "unit_no": "5", "rooms": 3, "area": 105.73, "price": 70310450, "floor": 3 },
+        { "unit_no": "11", "rooms": 3, "area": 105.73, "price": 70839100, "floor": 5 },
+        { "unit_no": "17", "rooms": 3, "area": 105.73, "price": 71896400, "floor": 7 },
+        { "unit_no": "2", "rooms": 4, "area": 127.53, "price": 87358050, "floor": 2 },
+        { "unit_no": "3", "rooms": 4, "area": 134.08, "price": 92515200, "floor": 3 },
+        { "unit_no": "1", "rooms": 4, "area": 135.84, "price": 90333600, "floor": 2 }
+      ]
+    },
+    {
+      "complex_id": "sensata-ayala",
+      "source_url": "https://sensata.kz/#/catalog/house/132104/list?filter=property.status:AVAILABLE",
+      "finishing": null,
+      "floors_total": 9,
+      "units": [
+        { "unit_no": "2", "rooms": 2, "area": 67.07, "price": 42924799, "floor": 1 },
+        { "unit_no": "22", "rooms": 2, "area": 68.97, "price": 45520200, "floor": 6 },
+        { "unit_no": "1", "rooms": 2, "area": 75.03, "price": 48019200, "floor": 1 },
+        { "unit_no": "3", "rooms": 3, "area": 94.98, "price": 57937800, "floor": 1 },
+        { "unit_no": "11", "rooms": 3, "area": 94.98, "price": 59837400, "floor": 3 },
+        { "unit_no": "27", "rooms": 3, "area": 96.61, "price": 60864300, "floor": 7 }
+      ]
+    },
+    {
+      "complex_id": "sensata-aitau",
+      "source_url": "https://sensata.kz/#/catalog/house/132123/list?filter=property.status:AVAILABLE",
+      "finishing": null,
+      "floors_total": 9,
+      "units": [
+        { "unit_no": "2", "rooms": 2, "area": 56.45, "price": 36692500, "floor": 1 },
+        { "unit_no": "1", "rooms": 2, "area": 62.52, "price": 40638000, "floor": 1 },
+        { "unit_no": "12", "rooms": 2, "area": 64, "price": 42560000, "floor": 4 },
+        { "unit_no": "3", "rooms": 3, "area": 82.62, "price": 50811300, "floor": 1 },
+        { "unit_no": "15", "rooms": 3, "area": 84.32, "price": 53121599, "floor": 4 },
+        { "unit_no": "27", "rooms": 3, "area": 84.32, "price": 53121599, "floor": 7 }
+      ]
+    },
+    {
+      "complex_id": "sensata-birjan-sal",
+      "source_url": "https://sensata.kz/#/catalog/house/150625/list?filter=property.status:AVAILABLE",
+      "finishing": "whitebox",
+      "units": [
+        { "unit_no": "34", "rooms": 2, "area": 65.44, "price": 53660800, "floor": 12 },
+        { "unit_no": "26", "rooms": 3, "area": 115.77, "price": 92037150, "floor": 9 },
+        { "unit_no": "32", "rooms": 3, "area": 115.77, "price": 93194850, "floor": 11 },
+        { "unit_no": "3", "rooms": 4, "area": 143.86, "price": 108614300, "floor": 2 },
+        { "unit_no": "30", "rooms": 4, "area": 143.86, "price": 117245900, "floor": 11 }
+      ]
+    },
+    {
+      "complex_id": "bi-aisar-4",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane",
+      "finishing": null,
+      "floors_total": 9,
+      "units": [
+        { "unit_no": "155", "rooms": 2, "area": 58.25, "price": 35882000, "floor": 1 },
+        { "unit_no": "190", "rooms": 2, "area": 59.87, "price": 36580570, "floor": 1 },
+        { "unit_no": "121", "rooms": 2, "area": 64.5, "price": 43279500, "floor": 3 },
+        { "unit_no": "14", "rooms": 3, "area": 74.31, "price": 48970290, "floor": 5 },
+        { "unit_no": "120", "rooms": 3, "area": 81.02, "price": 52987080, "floor": 3 },
+        { "unit_no": "199", "rooms": 3, "area": 104.27, "price": 64021780, "floor": 3 }
+      ]
+    },
+    {
+      "complex_id": "bi-alem-dara-c",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane",
+      "finishing": null,
+      "units": [
+        { "unit_no": "167", "rooms": 1, "area": 35.27, "price": 24018870, "floor": 3, "floors_total": 9 },
+        { "unit_no": "78", "rooms": 1, "area": 36.8, "price": 25024000, "floor": 3, "floors_total": 9 },
+        { "unit_no": "311", "rooms": 1, "area": 35.48, "price": 27326553, "floor": 3, "floors_total": 9, "finishing": "finished" },
+        { "unit_no": "101", "rooms": 2, "area": 46.12, "price": 30531440, "floor": 6, "floors_total": 9 },
+        { "unit_no": "134", "rooms": 2, "area": 54.7, "price": 33038800, "floor": 3, "floors_total": 9 },
+        { "unit_no": "179", "rooms": 2, "area": 61.74, "price": 40316220, "floor": 5, "floors_total": 9 },
+        { "unit_no": "133", "rooms": 3, "area": 80.08, "price": 45885840, "floor": 3, "floors_total": 9 },
+        { "unit_no": "305", "rooms": 3, "area": 69.48, "price": 46314789, "floor": 2, "floors_total": 9, "finishing": "finished" }
+      ]
+    },
+    {
+      "complex_id": "bi-abay-joly-senim-a",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty",
+      "finishing": null,
+      "units": [
+        { "unit_no": "101", "rooms": 1, "area": 37.09, "price": 28818930, "floor": 5, "floors_total": 17 },
+        { "unit_no": "28", "rooms": 1, "area": 36.59, "price": 30349117, "floor": 7, "floors_total": 17, "finishing": "finished" },
+        { "unit_no": "103", "rooms": 2, "area": 49.32, "price": 33438960, "floor": 5, "floors_total": 17 },
+        { "unit_no": "110", "rooms": 2, "area": 59.71, "price": 39408600, "floor": 6, "floors_total": 17 },
+        { "unit_no": "1", "rooms": 2, "area": 57.59, "price": 39983624, "floor": 2, "floors_total": 17, "finishing": "finished" },
+        { "unit_no": "179", "rooms": 3, "area": 90.11, "price": 43613240, "floor": 2, "floors_total": 14 },
+        { "unit_no": "185", "rooms": 3, "area": 86.84, "price": 51061920, "floor": 4, "floors_total": 14 }
+      ]
+    },
+    {
+      "complex_id": "bi-1st-by-bi-luxe",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty",
+      "finishing": null,
+      "floors_total": 3,
+      "units": [
+        { "unit_no": "27", "rooms": 2, "area": 121.77, "price": 365310000, "floor": 2 },
+        { "unit_no": "16", "rooms": 2, "area": 122.39, "price": 367170000, "floor": 2 },
+        { "unit_no": "14", "rooms": 2, "area": 126.61, "price": 373499500, "floor": 1 },
+        { "unit_no": "4", "rooms": 3, "area": 157.97, "price": 458113000, "floor": 2 },
+        { "unit_no": "19", "rooms": 3, "area": 164.63, "price": 469195500, "floor": 1 },
+        { "unit_no": "5", "rooms": 3, "area": 171.75, "price": 515250000, "floor": 3 }
+      ]
+    },
+    {
+      "complex_id": "bazis-adamant-life",
+      "source_url": "https://sales.bazis.kz/flats",
+      "finishing": null,
+      "price_from_ppm2": true,
+      "units": [
+        { "unit_no": "128", "rooms": 1, "area": 41.1, "price_per_m2": 565000, "floor": 16 },
+        { "unit_no": "43", "rooms": 1, "area": 42.8, "price_per_m2": 570000, "floor": 6 },
+        { "unit_no": "5", "rooms": 2, "area": 52.9, "price_per_m2": 570000, "floor": 2 },
+        { "unit_no": "42", "rooms": 2, "area": 57.8, "price_per_m2": 575000, "floor": 6 },
+        { "unit_no": "22", "rooms": 2, "area": 60.7, "price_per_m2": 565000, "floor": 4 },
+        { "unit_no": "45", "rooms": 3, "area": 74, "price_per_m2": 545000, "floor": 6 },
+        { "unit_no": "1", "rooms": 3, "area": 75.9, "price_per_m2": 545000, "floor": 2 },
+        { "unit_no": "28", "rooms": 3, "area": 76.8, "price_per_m2": 545000, "floor": 5 }
+      ]
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "source_url": "https://sales.bazis.kz/flats",
+      "finishing": null,
+      "price_from_ppm2": true,
+      "units": [
+        { "unit_no": "3", "rooms": 1, "area": 40.6, "price_per_m2": 633000, "floor": 2 },
+        { "unit_no": "29", "rooms": 1, "area": 41.1, "price_per_m2": 633000, "floor": 5 },
+        { "unit_no": "7", "rooms": 1, "area": 42.3, "price_per_m2": 645000, "floor": 2 },
+        { "unit_no": "50", "rooms": 2, "area": 54.4, "price_per_m2": 636000, "floor": 7 },
+        { "unit_no": "4", "rooms": 2, "area": 61.3, "price_per_m2": 630000, "floor": 2 },
+        { "unit_no": "31", "rooms": 2, "area": 62.1, "price_per_m2": 630000, "floor": 5 },
+        { "unit_no": "9", "rooms": 3, "area": 73, "price_per_m2": 584000, "floor": 2 },
+        { "unit_no": "99", "rooms": 3, "area": 74.3, "price_per_m2": 611000, "floor": 12 },
+        { "unit_no": "28", "rooms": 3, "area": 76.3, "price_per_m2": 606000, "floor": 5 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "period": "2025",
+  "source_url": "https://stat.gov.kz/ru/industries/economy/prices/dynamic-tables/",
+  "note": "Средняя цена продажи нового жилья за 1 м², БНС АСПиР РК, таблица «Цены на рынке жилья», данные за 2025 год (опубликованы 15.01.2026). Значения сверены по сводке finratings.kz/data/housing/new-price/ 17.10.2026.",
+  "prices": {
+    "almaty": 690668,
+    "astana": 671200,
+    "shymkent": 527967,
+    "atyrau": 525442,
+    "konaev": 471109,
+    "semey": 467745,
+    "pavlodar": 466214,
+    "aktau": 455678,
+    "oskemen": 432032,
+    "kostanay": 423940,
+    "zhezkazgan": 397692,
+    "taraz": 396414,
+    "kyzylorda": 386326,
+    "taldykorgan": 383075,
+    "karaganda": 375908,
+    "turkistan": 360849,
+    "petropavl": 359794,
+    "kokshetau": 339823,
+    "aktobe": 327514,
+    "oral": 299155
+  }
+}

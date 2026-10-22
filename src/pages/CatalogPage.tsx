@@ -10,7 +10,7 @@ import { EmptyState } from '../components/EmptyState';
 import { FilterSheet } from '../components/FilterSheet';
 import { ListSkeleton, LoadError } from '../components/LoadState';
 import { PageHeader } from '../components/PageHeader';
-import { useCityApartments } from '../data/queries';
+import { useCityApartments, useCovers } from '../data/queries';
 import { filterApartments, groupByComplex, sortApartments } from '../domain/catalog';
 import { EMPTY_FILTERS, activeFilterCount, type SortKey } from '../domain/filters';
 import { formatDate } from '../domain/format';
@@ -35,6 +35,7 @@ const SORTS: { value: SortKey; label: string }[] = [
 export function CatalogPage() {
   const { cityId, filters, sort, view, setCity, setFilters, resetFilters, setSort, setView } = useCatalog();
   const { data, isPending, isError, refetch } = useCityApartments(cityId);
+  const { data: covers } = useCovers();
   const [sheetOpen, setSheetOpen] = useState(false);
 
   const filtered = useMemo(() => sortApartments(filterApartments(data ?? [], filters), sort), [data, filters, sort]);
@@ -124,7 +125,7 @@ export function CatalogPage() {
           ) : (
             <ul className={styles.list}>
               {groups.map((g) => (
-                <ComplexRow key={g.complexId} summary={g} />
+                <ComplexRow key={g.complexId} summary={g} cover={covers?.[g.complexId]} />
               ))}
             </ul>
           )}

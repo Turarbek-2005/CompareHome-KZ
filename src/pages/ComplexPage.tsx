@@ -1,17 +1,22 @@
 import { IonContent, IonPage } from '@ionic/react';
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import { currentTab, useTabHref } from '../app/tabs';
 import { ApartmentRow } from '../components/ApartmentRow';
 import { BenchmarkDelta } from '../components/BenchmarkDelta';
 import { CompareTray } from '../components/CompareTray';
 import { ExternalLink } from '../components/ExternalLink';
+import { Gallery } from '../components/Gallery';
+import { ImageViewer } from '../components/ImageViewer';
 import { ListSkeleton, LoadError } from '../components/LoadState';
 import { LazyMapView as MapView } from '../components/LazyMapView';
+import { MediaCredit } from '../components/MediaCredit';
 import { PageHeader } from '../components/PageHeader';
+import { RemoteImage } from '../components/RemoteImage';
 import { SafetyDetails } from '../components/SafetyStatus';
-import { useCities, useComplex, useComplexApartments } from '../data/queries';
+import { useCities, useComplex, useComplexApartments, useComplexMedia } from '../data/queries';
 import { averagePricePerM2 } from '../domain/catalog';
+import { byKind } from '../domain/media';
 import {
   HOUSING_CLASS_LABEL,
   WALL_MATERIAL_LABEL,
@@ -39,6 +44,14 @@ export function ComplexPage() {
   const list = useMemo(() => apartments.data ?? [], [apartments.data]);
   const avg = averagePricePerM2(list);
   const city = cities?.find((x) => x.id === c?.cityId);
+  const media = useComplexMedia(id);
+  const exterior = useMemo(() => byKind(media.data ?? [], 'exterior'), [media.data]);
+  const interior = useMemo(() => byKind(media.data ?? [], 'interior'), [media.data]);
+  const cover = exterior[0];
+  const [viewer, setViewer] = useState<number | null>(null);
+  // Обложка пропала с сайта застройщика — не держим на её месте пустой блок. Помним, для какого ЖК.
+  const [failedCoverOf, setFailedCoverOf] = useState<string | null>(null);
+  const coverFailed = failedCoverOf === id;
 
   const byRooms = useMemo(() => {
     const groups = new Map<number, Apartment[]>();
@@ -67,6 +80,29 @@ export function ComplexPage() {
           {complex.isError && <LoadError what="жилой комплекс" onRetry={() => void complex.refetch()} />}
           {c && (
             <>
+              {cover && !coverFailed && (
+                <figure className={styles.hero}>
+                  <button
+                    type="button"
+                    className={styles.heroButton}
+                    onClick={() => setViewer(0)}
+                    aria-label={`Открыть фото ${c.name}`}
+                  >
+                    <RemoteImage
+                      src={cover.url}
+                      alt={`${c.name}, ${cover.caption ?? 'фото ЖК'}`}
+                      ratio="16 / 10"
+                      eager
+                      onFailed={() => setFailedCoverOf(id)}
+                    />
+                  </button>
+                  <figcaption className={styles.heroCaption}>
+                    {cover.caption && <span>{cover.caption}. </span>}
+                    <MediaCredit media={cover} className={styles.heroCredit} />
+                  </figcaption>
+                  <ImageViewer items={exterior} index={viewer} onClose={() => setViewer(null)} title={`Фото ${c.name}`} />
+                </figure>
+              )}
               <h1 className={styles.title}>{c.name}</h1>
               <p>
                 <Link to={href(`/developer/${c.developerId}`)}>{c.developerName}</Link>
@@ -95,6 +131,9 @@ export function ComplexPage() {
                     </div>
                   ))}
               </dl>
+
+              <Gallery title="Фото и рендеры" items={exterior.slice(1)} />
+              <Gallery title="Интерьеры" items={interior} />
 
               {c.lat != null && c.lng != null && (
                 <figure className={styles.mapFigure}>

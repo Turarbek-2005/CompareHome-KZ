@@ -45,6 +45,14 @@
   margin: 20px 0;
 }
 
+.devPlan {
+  margin-bottom: 8px;
+}
+
+.devPlan .note {
+  margin-top: 8px;
+}
+
 .programs {
   display: grid;
   gap: 8px;

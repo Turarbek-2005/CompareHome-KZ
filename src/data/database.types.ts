@@ -325,6 +325,70 @@ export type Database = {
         }
         Relationships: []
       }
+      media: {
+        Row: {
+          apartment_id: string | null
+          caption: string | null
+          collected_at: string
+          complex_id: string | null
+          credit: string
+          id: string
+          kind: Database["public"]["Enums"]["media_kind"]
+          sort: number
+          source_url: string
+          thumb_url: string | null
+          url: string
+        }
+        Insert: {
+          apartment_id?: string | null
+          caption?: string | null
+          collected_at: string
+          complex_id?: string | null
+          credit: string
+          id: string
+          kind: Database["public"]["Enums"]["media_kind"]
+          sort?: number
+          source_url: string
+          thumb_url?: string | null
+          url: string
+        }
+        Update: {
+          apartment_id?: string | null
+          caption?: string | null
+          collected_at?: string
+          complex_id?: string | null
+          credit?: string
+          id?: string
+          kind?: Database["public"]["Enums"]["media_kind"]
+          sort?: number
+          source_url?: string
+          thumb_url?: string | null
+          url?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "media_apartment_id_fkey"
+            columns: ["apartment_id"]
+            isOneToOne: false
+            referencedRelation: "apartment_cards"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "media_apartment_id_fkey"
+            columns: ["apartment_id"]
+            isOneToOne: false
+            referencedRelation: "apartments"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "media_complex_id_fkey"
+            columns: ["complex_id"]
+            isOneToOne: false
+            referencedRelation: "complexes"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       mortgage_programs: {
         Row: {
           bank: string
@@ -453,6 +517,7 @@ export type Database = {
       complex_status: "planned" | "construction" | "completed"
       finishing_type: "rough" | "whitebox" | "finished"
       housing_class: "econom" | "comfort" | "business" | "premium"
+      media_kind: "plan" | "exterior" | "interior"
       safety_status:
         | "kzhk_guarantee"
         | "akimat_permit"

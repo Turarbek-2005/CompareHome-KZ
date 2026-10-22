@@ -11,6 +11,23 @@
   text-decoration: none;
 }
 
+.head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 12px;
+}
+
+.titles {
+  display: grid;
+  gap: 2px;
+}
+
+.cover {
+  display: block;
+  width: 72px;
+}
+
 .name {
   font-size: var(--t-m);
   font-weight: 650;

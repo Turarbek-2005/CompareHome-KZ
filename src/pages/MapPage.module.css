@@ -43,6 +43,12 @@
   gap: 6px;
 }
 
+.cover {
+  display: block;
+  justify-self: stretch;
+  margin-bottom: 4px;
+}
+
 .name {
   font-size: var(--t-l);
   font-weight: 650;

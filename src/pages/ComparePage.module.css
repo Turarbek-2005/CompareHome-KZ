@@ -81,6 +81,23 @@
   font-size: var(--t-xs);
 }
 
+.noPlan {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1 / 1;
+  padding: 6px;
+  border: 1px dashed var(--rule-strong);
+  text-align: center;
+  font-size: 12px;
+  color: var(--concrete);
+}
+
+.planNote {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--concrete);
+}
+
 .hint {
   margin-top: 12px;
   font-size: var(--t-xs);

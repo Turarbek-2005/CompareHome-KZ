@@ -9,6 +9,7 @@ import {
   complexSchema,
   dataSourceSchema,
   developerSchema,
+  mediaFileSchema,
   mortgageProgramSchema,
 } from './schema.ts';
 
@@ -39,6 +40,7 @@ export function loadCurated() {
   const mortgagePrograms = parse('mortgage_programs.json', z.array(mortgageProgramSchema));
   const benchmarks = parse('benchmarks.json', benchmarksFileSchema);
   const dataSources = parse('data_sources.json', z.array(dataSourceSchema));
+  const media = parse('media.json', mediaFileSchema);
 
   // Ссылочная целостность — ошибки здесь понятнее, чем отказ внешнего ключа в БД.
   const cityIds = new Set(cities.map((c) => c.id));
@@ -54,6 +56,15 @@ export function loadCurated() {
   for (const cityId of Object.keys(benchmarks.prices)) {
     if (!cityIds.has(cityId)) throw new Error(`benchmarks: нет города ${cityId}`);
   }
+  const unitKeys = new Set(apartments.groups.flatMap((g) => g.units.map((u) => `${g.complex_id}|${u.unit_no}`)));
+  for (const c of media.complexes) {
+    if (!complexIds.has(c.complex_id)) throw new Error(`media: нет ЖК ${c.complex_id}`);
+  }
+  for (const p of media.plans) {
+    if (!unitKeys.has(`${p.complex_id}|${p.unit_no}`)) {
+      throw new Error(`media: планировка для несуществующей квартиры ${p.complex_id} №${p.unit_no}`);
+    }
+  }
 
-  return { cities, developers, complexes, apartments, mortgagePrograms, benchmarks, dataSources };
+  return { cities, developers, complexes, apartments, mortgagePrograms, benchmarks, dataSources, media };
 }

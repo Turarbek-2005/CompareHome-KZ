@@ -1,0 +1,41 @@
+.gallery {
+  margin-top: 8px;
+}
+
+/* Лента выходит к краям экрана: видно, что её можно листать. */
+.strip {
+  display: flex;
+  gap: 8px;
+  margin: 0 calc(var(--gutter) * -1);
+  padding: 0 var(--gutter);
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scroll-padding: 0 var(--gutter);
+  list-style: none;
+  scrollbar-width: none;
+}
+
+.strip::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  flex: 0 0 152px;
+  scroll-snap-align: start;
+}
+
+.thumb {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.caption {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--concrete);
+}

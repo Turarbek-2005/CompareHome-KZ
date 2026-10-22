@@ -9,6 +9,7 @@ import type {
   Developer,
   HousingType,
   Installment,
+  Media,
   MortgageProgram,
 } from '../domain/types';
 
@@ -128,6 +129,22 @@ export function toMortgageProgram(r: Tables<'mortgage_programs'>): MortgageProgr
     note: r.note,
     sourceUrl: r.source_url,
     verifiedAt: r.verified_at,
+  };
+}
+
+export function toMedia(r: Tables<'media'>): Media {
+  return {
+    id: r.id,
+    complexId: r.complex_id,
+    apartmentId: r.apartment_id,
+    kind: r.kind,
+    url: r.url,
+    thumbUrl: r.thumb_url,
+    caption: r.caption,
+    credit: r.credit,
+    sourceUrl: r.source_url,
+    collectedAt: r.collected_at,
+    sort: r.sort,
   };
 }
 

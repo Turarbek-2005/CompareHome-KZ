@@ -5,6 +5,23 @@ export type WallMaterial = Enums<'wall_material'>;
 export type SafetyStatus = Enums<'safety_status'>;
 export type Finishing = Enums<'finishing_type'>;
 export type ComplexStatus = Enums<'complex_status'>;
+export type MediaKind = Enums<'media_kind'>;
+
+/** Изображение с сайта застройщика: показываем по ссылке и всегда с источником. */
+export interface Media {
+  id: string;
+  complexId: string | null;
+  apartmentId: string | null;
+  kind: MediaKind;
+  url: string;
+  /** Уменьшенная версия, если застройщик её отдаёт. */
+  thumbUrl: string | null;
+  caption: string | null;
+  credit: string;
+  sourceUrl: string;
+  collectedAt: string;
+  sort: number;
+}
 
 export interface Completion {
   year: number;

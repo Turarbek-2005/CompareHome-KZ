@@ -130,4 +130,34 @@ export const dataSourceSchema = z.object({
   sort: z.number().int(),
 });
 
+/** Ссылки на изображения с сайтов застройщиков: файлы не копируем. */
+export const mediaFileSchema = z.object({
+  collected_at: isoDate,
+  complexes: z.array(
+    z.object({
+      complex_id: z.string(),
+      credit: z.string().min(1),
+      source_url: url,
+      items: z.array(
+        z.object({
+          kind: z.enum(['exterior', 'interior']),
+          url,
+          thumb_url: url.optional(),
+          caption: z.string().nullable(),
+        }),
+      ),
+    }),
+  ),
+  plans: z.array(
+    z.object({
+      complex_id: z.string(),
+      unit_no: z.string(),
+      url,
+      thumb_url: url.optional(),
+      source_url: url,
+      credit: z.string().min(1),
+    }),
+  ),
+});
+
 export type Complex = z.infer<typeof complexSchema>;

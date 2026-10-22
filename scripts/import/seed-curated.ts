@@ -64,6 +64,39 @@ for (const a of apartmentRows) {
 
 const curatedComplexIds = data.complexes.map((c) => c.id);
 
+// Фото ЖК: обложка — первое фото снаружи; id стабилен, пока не меняется порядок в media.json.
+const mediaRows = [
+  ...data.media.complexes.flatMap((c) => {
+    const counters = { exterior: 0, interior: 0 };
+    return c.items.map((it, i) => ({
+      id: `${c.complex_id}-${it.kind}-${++counters[it.kind]}`,
+      complex_id: c.complex_id,
+      apartment_id: null,
+      kind: it.kind,
+      url: it.url,
+      thumb_url: it.thumb_url ?? null,
+      caption: it.caption,
+      credit: c.credit,
+      source_url: c.source_url,
+      collected_at: data.media.collected_at,
+      sort: i,
+    }));
+  }),
+  ...data.media.plans.map((p) => ({
+    id: `${p.complex_id}-${p.unit_no}-plan`,
+    complex_id: null,
+    apartment_id: `${p.complex_id}-${p.unit_no}`,
+    kind: 'plan',
+    url: p.url,
+    thumb_url: p.thumb_url ?? null,
+    caption: null,
+    credit: p.credit,
+    source_url: p.source_url,
+    collected_at: data.media.collected_at,
+    sort: 0,
+  })),
+];
+
 const sql = [
   '-- Сгенерировано scripts/import/seed-curated.ts из data/curated. Не редактируйте вручную.',
   'begin;',
@@ -94,6 +127,9 @@ const sql = [
     ['city_id', 'period'],
   ),
   upsert('data_sources', data.dataSources),
+  // Изображения, которых больше нет в media.json, удаляем — например, застройщик убрал фото.
+  `delete from public.media where id not in (${mediaRows.map((m) => lit(m.id)).join(', ')});`,
+  upsert('media', mediaRows),
   'commit;',
 ].join('\n');
 
@@ -101,5 +137,5 @@ const out = resolve(rootDir, 'supabase/seed.sql');
 writeFileSync(out, sql, 'utf8');
 console.log(
   `seed.sql: застройщиков ${data.developers.length}, ЖК ${data.complexes.length}, ` +
-    `квартир ${apartmentRows.length}, программ ${data.mortgagePrograms.length}`,
+    `квартир ${apartmentRows.length}, программ ${data.mortgagePrograms.length}, изображений ${mediaRows.length}`,
 );

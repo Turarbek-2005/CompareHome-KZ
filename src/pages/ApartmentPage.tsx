@@ -1,17 +1,23 @@
 import { Share } from '@capacitor/share';
 import { IonContent, IonPage } from '@ionic/react';
+import { useMemo, useState } from 'react';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import { currentTab, useTabHref } from '../app/tabs';
 import { BenchmarkDelta } from '../components/BenchmarkDelta';
 import { CompareToggle } from '../components/CompareToggle';
+import { DeveloperPlan } from '../components/DeveloperPlan';
 import { ExternalLink } from '../components/ExternalLink';
 import { FavoriteToggle } from '../components/FavoriteToggle';
 import { Footprint, ScaleBar } from '../components/Footprint';
+import { Gallery } from '../components/Gallery';
+import { ImageViewer } from '../components/ImageViewer';
 import { ListSkeleton, LoadError } from '../components/LoadState';
+import { MediaCredit } from '../components/MediaCredit';
 import { PageHeader } from '../components/PageHeader';
 import { SafetyBadge } from '../components/SafetyStatus';
 import { useAppToast } from '../components/useAppToast';
-import { useApartment, useMortgagePrograms } from '../data/queries';
+import { useApartment, useApartmentPlan, useComplexMedia, useMortgagePrograms } from '../data/queries';
+import { byKind } from '../domain/media';
 import {
   FINISHING_LABEL,
   HOUSING_CLASS_LABEL,
@@ -36,6 +42,13 @@ export function ApartmentPage() {
   const href = useTabHref();
   const { data: a, isPending, isError, refetch } = useApartment(id);
   const { data: programs } = useMortgagePrograms();
+  const { data: plan } = useApartmentPlan(id);
+  const { data: complexMedia } = useComplexMedia(a?.complexId ?? '');
+  const photos = useMemo(
+    () => [...byKind(complexMedia ?? [], 'exterior'), ...byKind(complexMedia ?? [], 'interior')],
+    [complexMedia],
+  );
+  const [planViewer, setPlanViewer] = useState<number | null>(null);
   const say = useAppToast();
 
   const share = async () => {
@@ -83,6 +96,16 @@ export function ApartmentPage() {
                 <FavoriteToggle id={a.id} />
               </div>
 
+              {plan && (
+                <section className={styles.devPlan}>
+                  <h2 className="section-title">Планировка застройщика</h2>
+                  <DeveloperPlan plan={plan} onOpen={() => setPlanViewer(0)} />
+                  <p className={styles.note}>Масштаб у застройщиков разный: размеры сравнивайте по схеме выше.</p>
+                  <MediaCredit media={plan} />
+                  <ImageViewer items={[plan]} index={planViewer} onClose={() => setPlanViewer(null)} title="Планировка" />
+                </section>
+              )}
+
               <dl className="facts">
                 <dt>ЖК</dt>
                 <dd>
@@ -115,6 +138,8 @@ export function ApartmentPage() {
                   </>
                 )}
               </dl>
+
+              <Gallery title={`Фото ${a.complexName}`} items={photos} />
 
               <h2 className="section-title">Ипотека</h2>
               <ul className={styles.programs}>

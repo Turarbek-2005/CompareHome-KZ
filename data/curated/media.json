@@ -1,0 +1,1359 @@
+{
+  "collected_at": "2026-10-23",
+  "complexes": [
+    {
+      "complex_id": "sensata-nygmet",
+      "credit": "Sensata Group",
+      "source_url": "https://sensata.kz/project/nygmet",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/projects/7e3f150d1dae0ac0753b658c223c0a74.jpg",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "complex_id": "sensata-shejire",
+      "credit": "Sensata Group",
+      "source_url": "https://sensata.kz/project/shejire",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/projects/fbacaaac44243b6f40bb28e4d4d876fd.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/2e55d030370975b7f11bdbab73ee5a2f.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/f46b95c2f9d2f0126d1fbf898beecfa1.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/58af59f8ffbde89981d7a66863f0d3d8.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/78310f5599d0a830277cbea3154d9d3b.jpg",
+          "caption": null
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/1c87f24e4f84911c665ea8a4a3d5d0af.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/59eb6d611a37ca18ac677550095119db.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/0f94f31e35efe6c3934446fd4e10d549.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/afa6332908b897995167628b65328f4d.jpg",
+          "caption": "Холл"
+        }
+      ]
+    },
+    {
+      "complex_id": "sensata-gasyr",
+      "credit": "Sensata Group",
+      "source_url": "https://sensata.kz/project/gasyr",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/projects/6c4b57c961a34b8c92c906c6669c72d8.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/1feb916c1c7715c9cdb91dcd904bbc52.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/eef0b9cb94a51fba04d9cab024e3dd8e.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/26d99d97726ace96e7786cfa9d149a12.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/advans/d1766181f2940d33618080ec971dceab.jpg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/41c0b119ccecf540c51b73cc191dae8b.jpeg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/e3b2c19624cc43a4e93683cf579f46c2.jpeg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/e087ebe9c53530b8cee862bfc6f1c744.jpeg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/e71008f9543a0ab23ca5af22472e2582.jpeg",
+          "caption": "Холл"
+        }
+      ]
+    },
+    {
+      "complex_id": "sensata-grace-garden",
+      "credit": "Sensata Group",
+      "source_url": "https://sensata.kz/project/grace-garden",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/projects/223445b433286a78c3308b8bda51c7fd.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/3be95d311ab14d4fc1d8e602d0b8e45f.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/56c33d8898f77cdf29ca26c71e0dc2ac.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/af00ffd43c05ddc7799b36f913f15369.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/f5059f55a8baed3e685ef630b5e680b6.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/e805f82a2a426585d1226c81dd4d3599.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/8072eb927581e9ce2206494b174c4da5.jpg",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "complex_id": "sensata-sanara",
+      "credit": "Sensata Group",
+      "source_url": "https://sensata.kz/project/sanara",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/projects/c9c790240a5f2bf622164294f6a8a9d6.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/d7e895289360281f0f358fcffe86c9dd.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/81f47cf876a134ed4fe51d110242ab53.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/eed15ef8179a37cab73f56cfa9447b71.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/2bc06f17e7f4c8a7024acfa8c3b45e10.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/d6e20c3916691aa6bd5a097ffbe0f75d.jpg",
+          "caption": null
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/0c2b484861f8ff5d1900f457b629f481.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/717475e6a44806f837530a86b3de4026.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/e5c879791a8733dfa3250b4c3d9dd61b.jpg",
+          "caption": "Фитнес"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/17ff4955b1ba649231a53ffea220addc.jpg",
+          "caption": "Игровая"
+        }
+      ]
+    },
+    {
+      "complex_id": "sensata-bestogai",
+      "credit": "Sensata Group",
+      "source_url": "https://sensata.kz/project/bestogai",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/projects/c93b82b7b1763e99792b71ee3c6c7ab0.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/50b3ed8df6bec48f900b4a38ce91a7bc.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/3f4aa80e42b8bafd271ed537d860225d.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/984e408ec51c291b2ffaa1386fa98e3b.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/f28aeda0b54d3bed591b08db35ff1185.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/40e34f9a6fd690db6c9292049e0cbad6.jpg",
+          "caption": null
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/60c5c3db49d4e35652dfe398c002f3f3.jpg",
+          "caption": "Игровая"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/d480e92b90e16075f5d3d5b6571c9578.jpg",
+          "caption": "Игровая"
+        }
+      ]
+    },
+    {
+      "complex_id": "sensata-ayala",
+      "credit": "Sensata Group",
+      "source_url": "https://sensata.kz/project/ayala",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/projects/eb4ece3930d8095af52f46b63eea724d.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/261a11ac7b21f1f7021d65c10f4072d9.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/9ff5ced87f931dc765095f017851f247.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/23c459f92f0b227c88c47316eb3cb67e.jpg",
+          "caption": "Вид сверху"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/2916267f3ef6825434b40ed8696fdc43.jpeg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/fdb26ee82d242a5b0554c8cd51f298a8.jpeg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/e0de7c763936b61f57787924b7ada0df.jpeg",
+          "caption": null
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/8290633a385be37d1bda6a80a4994b8d.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/bc2644f0a82586b10218fdc02e3c56b4.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/7f1a399387af18e834632c4b62c37811.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/40cc2241c8aa8b20d8d9e4ca423b1098.jpg",
+          "caption": "Игровая"
+        }
+      ]
+    },
+    {
+      "complex_id": "sensata-aitau",
+      "credit": "Sensata Group",
+      "source_url": "https://sensata.kz/project/aitau",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/projects/22de8bcf8e62fe9977903ef6e9cbeea1.jpeg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/bebe82b05d28885f3d8e0fb090a1c1c1.jpeg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/1904391e366aae362c5e3a8f5c29bc1c.jpeg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/a0301d1cee6418833225784500a37076.jpeg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/57f5827470db38add611c9a82ab6d23d.jpeg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/541a83af7185c93502151d28cb6913df.jpeg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/advans/ff8d736585447099d4e53fa1c73b1a77.jpg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/9c99cea67af24d498f848a46cb8bf5d3.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/8bbecd1a92917a578b8c334ef73e237a.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/0937f129c1b580b2f7c4355670e73525.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/0b66a9e9a7b454d96de69da62f0c5130.jpg",
+          "caption": "Холл"
+        }
+      ]
+    },
+    {
+      "complex_id": "sensata-birjan-sal",
+      "credit": "Sensata Group",
+      "source_url": "https://sensata.kz/project/birjan-sal",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/photos/71f4b5a1326059bd905d74fa12898bbe.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/advans/b30914ec114cfa8b35120fd03cd4a4ac.jpeg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/advans/e5c1ffab3100be052b2e82635a9725de.jpeg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://sensata.kz/img/advans/dec5e951a63ac1a9269a7685bb58aa5d.jpeg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/34135e999e1f5cb7d3e045d3e8c72ba5.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/58f2ec5e9b68dd136c813ec738825234.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://sensata.kz/img/advans/667dbaf3a418fbdedbdc1ffe5610c77b.jpg",
+          "caption": "Игровая"
+        }
+      ]
+    },
+    {
+      "complex_id": "bi-aisar-4",
+      "credit": "BI Group",
+      "source_url": "https://bi.group/ru/landing/aisar",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_18_2_29edd19d07.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_18_2_29edd19d07.jpg",
+          "caption": "Aisar, общий вид проекта"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_Aysar_4_040_9e3663ef3e.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_Aysar_4_040_9e3663ef3e.jpg",
+          "caption": "Вид сверху"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_Aysar_4_042_5d0aace8db.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_Aysar_4_042_5d0aace8db.jpg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_Aysar_4_047_b6d5268e7f.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_Aysar_4_047_b6d5268e7f.jpg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_Aysar_4_052_ff92c57616.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_Aysar_4_052_ff92c57616.jpg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "interior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_holl_1_01c05043ce.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_holl_1_01c05043ce.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_holl_4_eb1bcaf7ab.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_holl_4_eb1bcaf7ab.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_holl_2_6fd4fb978b.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_holl_2_6fd4fb978b.jpg",
+          "caption": "Холл"
+        },
+        {
+          "kind": "interior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_holl_3_9a840aa332.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_holl_3_9a840aa332.jpg",
+          "caption": "Холл"
+        }
+      ]
+    },
+    {
+      "complex_id": "bi-alem-dara-c",
+      "credit": "BI Group",
+      "source_url": "https://bi.group/ru/landing/alem-dara",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_1_69213a1bfa.jpeg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_1_69213a1bfa.jpeg",
+          "caption": "Alem Dara, общий вид проекта"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_006_1920h1080_ef49925e74.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_006_1920h1080_ef49925e74.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_2_446b181eb5.jpeg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_2_446b181eb5.jpeg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_ptichka_e940d3829a.jpeg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_ptichka_e940d3829a.jpeg",
+          "caption": "Вид сверху"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_Corona_Camera002_C_Shading_Light_Mix0000_5ba7a84885.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_Corona_Camera002_C_Shading_Light_Mix0000_5ba7a84885.jpg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_Corona_Camera006_C_Shading_Light_Mix0000_6bd524377a.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_Corona_Camera006_C_Shading_Light_Mix0000_6bd524377a.jpg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "interior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_10_973520a10e.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_10_973520a10e.jpg",
+          "caption": "Холл"
+        }
+      ]
+    },
+    {
+      "complex_id": "bi-1st-by-bi-luxe",
+      "credit": "BI Group",
+      "source_url": "https://bi.group/ru/landing/1st-luxe",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_C_023_1_5a1160a9e4.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_C_023_1_5a1160a9e4.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_C_09_1_d9a6b3023b.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_C_09_1_d9a6b3023b.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_S_11111_1_f4e7ca7a9c.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_S_11111_1_f4e7ca7a9c.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_Ptichka_priblizhennaya_1st_b4ee0a9d93.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_Ptichka_priblizhennaya_1st_b4ee0a9d93.jpg",
+          "caption": "Вид сверху"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_Lyuks_1_PTICA_C14_f85e8adeb0.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_Lyuks_1_PTICA_C14_f85e8adeb0.jpg",
+          "caption": "Вид сверху"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_DJI_0167_D_c84a34057b.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_DJI_0167_D_c84a34057b.jpg",
+          "caption": "Аэрофотосъёмка"
+        },
+        {
+          "kind": "interior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_MOP_LUXE_01_5cfddb5014.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_MOP_LUXE_01_5cfddb5014.jpg",
+          "caption": "Лобби"
+        },
+        {
+          "kind": "interior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_MOP_LUXE_02_5fc5671714.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_MOP_LUXE_02_5fc5671714.jpg",
+          "caption": "Лобби"
+        },
+        {
+          "kind": "interior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_MOP_LUXE_03_a54e728caf.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_MOP_LUXE_03_a54e728caf.jpg",
+          "caption": "Лобби"
+        },
+        {
+          "kind": "interior",
+          "url": "https://s3.bi.group/biclick/content-manager/large_MOP_LUXE_04_bc48d603f1.jpg",
+          "thumb_url": "https://s3.bi.group/biclick/content-manager/small_MOP_LUXE_04_bc48d603f1.jpg",
+          "caption": "Лобби"
+        }
+      ]
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "credit": "BAZIS-A",
+      "source_url": "https://adamant-plus.bazis.kz/",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/zhk-aman-bazis-cam_1-6k-5.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/zhk-aman-bazis-cam_3-6k-2.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/zhk-aman-bazis-cam_10.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/zhk-aman-bazis-cam_2-4.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/zhk-aman-bazis-cam_7-2.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/bez-imeni-4-19.jpg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/obshhij-vid-2.jpg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "interior",
+          "url": "https://admin.shablon.bazis.kz/media/1-38.jpg",
+          "caption": "Холл"
+        }
+      ]
+    },
+    {
+      "complex_id": "bazis-adamant-life",
+      "credit": "BAZIS-A",
+      "source_url": "https://adamant.bazis.kz/",
+      "items": [
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/zhk-aman-bazis-cam_11-kopiya-6k-1.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/zhk-aman-bazis-cam_6-4.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/zhk-aman-bazis-cam_11-kopiya-3.jpg",
+          "caption": null
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/zhk-aman-bazis-cam_6_new-3.jpg",
+          "caption": "Двор"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/4-18.jpg",
+          "caption": "Детская площадка"
+        },
+        {
+          "kind": "exterior",
+          "url": "https://admin.shablon.bazis.kz/media/zhk-aman-bazis-cam_4-5.jpg",
+          "caption": "Спортивная площадка"
+        }
+      ]
+    }
+  ],
+  "plans": [
+    {
+      "complex_id": "sensata-ayala",
+      "unit_no": "1",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c7feef10ad6.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132104/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-ayala",
+      "unit_no": "2",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c7fef24f8e7.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132104/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-ayala",
+      "unit_no": "3",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c7feec75a50.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132104/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-ayala",
+      "unit_no": "11",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c7fee0f026e.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132104/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-ayala",
+      "unit_no": "22",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c7fed88eec0.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132104/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-ayala",
+      "unit_no": "27",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c7fed6006aa.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132104/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-aitau",
+      "unit_no": "1",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c8127c631a3.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132123/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-aitau",
+      "unit_no": "2",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c8127e4add6.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132123/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-aitau",
+      "unit_no": "3",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c8127fd30fb.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132123/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-aitau",
+      "unit_no": "12",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c813a7d3cf4.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132123/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-aitau",
+      "unit_no": "15",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c813ae3afd9.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132123/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-aitau",
+      "unit_no": "27",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/67c813ae3afd9.png",
+      "source_url": "https://sensata.kz/#/catalog/house/132123/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-bestogai",
+      "unit_no": "1",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6801f535de909.png",
+      "source_url": "https://sensata.kz/#/catalog/house/133977/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-bestogai",
+      "unit_no": "2",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6911ce85717da.png",
+      "source_url": "https://sensata.kz/#/catalog/house/133977/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-bestogai",
+      "unit_no": "3",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6801f53a70887.png",
+      "source_url": "https://sensata.kz/#/catalog/house/133977/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-bestogai",
+      "unit_no": "5",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6911ce73359f8.png",
+      "source_url": "https://sensata.kz/#/catalog/house/133977/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-bestogai",
+      "unit_no": "11",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6911ce73359f8.png",
+      "source_url": "https://sensata.kz/#/catalog/house/133977/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-bestogai",
+      "unit_no": "17",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6911ce73359f8.png",
+      "source_url": "https://sensata.kz/#/catalog/house/133977/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-sanara",
+      "unit_no": "1",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6997f5a8bb46a.png",
+      "source_url": "https://sensata.kz/#/catalog/house/134376/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-sanara",
+      "unit_no": "4",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6997f71d2e33e.png",
+      "source_url": "https://sensata.kz/#/catalog/house/134376/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-sanara",
+      "unit_no": "28",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/680f71bc356a4.png",
+      "source_url": "https://sensata.kz/#/catalog/house/134376/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-grace-garden",
+      "unit_no": "6",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6aa3d9707098e.png",
+      "source_url": "https://sensata.kz/#/catalog/house/135855/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-grace-garden",
+      "unit_no": "32",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6aa3d99a32cc0.png",
+      "source_url": "https://sensata.kz/#/catalog/house/135855/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-grace-garden",
+      "unit_no": "47",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6aa3d94e28264.png",
+      "source_url": "https://sensata.kz/#/catalog/house/135855/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-grace-garden",
+      "unit_no": "51",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6aa3d94cb588b.png",
+      "source_url": "https://sensata.kz/#/catalog/house/135855/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-grace-garden",
+      "unit_no": "54",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6aa3d949cedb3.png",
+      "source_url": "https://sensata.kz/#/catalog/house/135855/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-gasyr",
+      "unit_no": "3",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/682738a0b1814.png",
+      "source_url": "https://sensata.kz/#/catalog/house/136214/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-gasyr",
+      "unit_no": "4",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6827389f1aac4.png",
+      "source_url": "https://sensata.kz/#/catalog/house/136214/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-gasyr",
+      "unit_no": "10",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/68273893eb077.png",
+      "source_url": "https://sensata.kz/#/catalog/house/136214/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-gasyr",
+      "unit_no": "35",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6827384c2da4b.png",
+      "source_url": "https://sensata.kz/#/catalog/house/136214/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-gasyr",
+      "unit_no": "45",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6827380c41b5c.png",
+      "source_url": "https://sensata.kz/#/catalog/house/136214/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-gasyr",
+      "unit_no": "48",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/682738040ae32.png",
+      "source_url": "https://sensata.kz/#/catalog/house/136214/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-shejire",
+      "unit_no": "5",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6879cfbba887a.png",
+      "source_url": "https://sensata.kz/#/catalog/house/138701/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-shejire",
+      "unit_no": "7",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6879cfc34cf7c.png",
+      "source_url": "https://sensata.kz/#/catalog/house/138701/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-shejire",
+      "unit_no": "16",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6879cfd4e95fc.png",
+      "source_url": "https://sensata.kz/#/catalog/house/138701/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-shejire",
+      "unit_no": "23",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6879cff1eb683.png",
+      "source_url": "https://sensata.kz/#/catalog/house/138701/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-shejire",
+      "unit_no": "30",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6879cffc38c19.png",
+      "source_url": "https://sensata.kz/#/catalog/house/138701/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-shejire",
+      "unit_no": "31",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6879d002216a6.png",
+      "source_url": "https://sensata.kz/#/catalog/house/138701/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-nygmet",
+      "unit_no": "2",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/698d739d9e936.png",
+      "source_url": "https://sensata.kz/#/catalog/house/141595/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-nygmet",
+      "unit_no": "5",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/699fd5ea9a617.png",
+      "source_url": "https://sensata.kz/#/catalog/house/141595/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-nygmet",
+      "unit_no": "6",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/698d7392c2ed2.png",
+      "source_url": "https://sensata.kz/#/catalog/house/141595/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-nygmet",
+      "unit_no": "7",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/698d73755803f.png",
+      "source_url": "https://sensata.kz/#/catalog/house/141595/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-nygmet",
+      "unit_no": "21",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/698d736e1cd2c.png",
+      "source_url": "https://sensata.kz/#/catalog/house/141595/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-nygmet",
+      "unit_no": "26",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/698d73ff52580.png",
+      "source_url": "https://sensata.kz/#/catalog/house/141595/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-birjan-sal",
+      "unit_no": "3",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6932a6d110280.png",
+      "source_url": "https://sensata.kz/#/catalog/house/150625/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-birjan-sal",
+      "unit_no": "26",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6932a6d952191.png",
+      "source_url": "https://sensata.kz/#/catalog/house/150625/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-birjan-sal",
+      "unit_no": "30",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6932a6d6abc60.png",
+      "source_url": "https://sensata.kz/#/catalog/house/150625/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-birjan-sal",
+      "unit_no": "32",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6932a6d952191.png",
+      "source_url": "https://sensata.kz/#/catalog/house/150625/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "sensata-birjan-sal",
+      "unit_no": "34",
+      "url": "https://pb4678.profitbase.ru/uploads/preset/4678/6932a6d7df299.png",
+      "source_url": "https://sensata.kz/#/catalog/house/150625/list",
+      "credit": "Sensata Group"
+    },
+    {
+      "complex_id": "bi-aisar-4",
+      "unit_no": "155",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/9e097ae3-20e5-4ef3-8dad-1bd5c1c46915/155.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/9e097ae3-20e5-4ef3-8dad-1bd5c1c46915/155_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-aisar-4",
+      "unit_no": "190",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/f3a143f6-469f-441c-aebf-12c2a1f26bd3/190.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/f3a143f6-469f-441c-aebf-12c2a1f26bd3/190_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-aisar-4",
+      "unit_no": "121",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/4a98ca43-4235-46ad-a4c7-f69db016715d/121.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/4a98ca43-4235-46ad-a4c7-f69db016715d/121_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-aisar-4",
+      "unit_no": "14",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/788ab281-3372-48a3-a564-a6ffee94b996/14.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/788ab281-3372-48a3-a564-a6ffee94b996/14_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/trehkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-aisar-4",
+      "unit_no": "120",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/b4d6dab3-4034-4ddc-9dc9-e5424a9038f0/120.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/b4d6dab3-4034-4ddc-9dc9-e5424a9038f0/120_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/trehkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-aisar-4",
+      "unit_no": "199",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/7772c04b-a2d3-45b2-a0b3-2356048d77ab/199.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/4bd49572-ad9a-11eb-a824-001dd8b726aa/7772c04b-a2d3-45b2-a0b3-2356048d77ab/199_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/trehkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-alem-dara-c",
+      "unit_no": "167",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/bef7054e-855e-431f-9e2c-16c4bd11590c/167.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/bef7054e-855e-431f-9e2c-16c4bd11590c/167_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/odnokomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-alem-dara-c",
+      "unit_no": "78",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/b11f5ec4-bbe0-4c0c-8d7e-880ea0456a90/78.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/b11f5ec4-bbe0-4c0c-8d7e-880ea0456a90/78_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/odnokomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-alem-dara-c",
+      "unit_no": "101",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/8858d42e-3524-4c09-aaea-e3eefe58d209/101.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/8858d42e-3524-4c09-aaea-e3eefe58d209/101_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-alem-dara-c",
+      "unit_no": "134",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/50b10305-2da1-4145-b27b-59a5aa2689e1/134.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/50b10305-2da1-4145-b27b-59a5aa2689e1/134_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-alem-dara-c",
+      "unit_no": "179",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/4a94df75-6776-47be-a945-2551937ccfa5/179.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/4a94df75-6776-47be-a945-2551937ccfa5/179_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-alem-dara-c",
+      "unit_no": "133",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/8e24c179-d9e5-4687-af0a-9c5eeaf4a340/133.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/8e24c179-d9e5-4687-af0a-9c5eeaf4a340/133_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/trehkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-alem-dara-c",
+      "unit_no": "305",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/a7a3c96a-ed57-48cf-a0d1-31290dba47a5/305.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a9bcd920-2c69-49f8-8f57-6165323c8106/a7a3c96a-ed57-48cf-a0d1-31290dba47a5/305_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-astane/trehkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-abay-joly-senim-a",
+      "unit_no": "101",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/3c5aec7d-104d-4558-ae8f-9141e1aa57a4/101.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/3c5aec7d-104d-4558-ae8f-9141e1aa57a4/101_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/odnokomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-abay-joly-senim-a",
+      "unit_no": "28",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/56d8969b-fff6-4242-b0fe-43e6ecba220f/28.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/56d8969b-fff6-4242-b0fe-43e6ecba220f/28_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/odnokomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-abay-joly-senim-a",
+      "unit_no": "103",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/8c60fc4f-1dac-4251-9410-5cc18a78b0ed/103.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/8c60fc4f-1dac-4251-9410-5cc18a78b0ed/103_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-abay-joly-senim-a",
+      "unit_no": "110",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/45887a1a-b403-43fe-9355-7d8f8fd54771/110.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/45887a1a-b403-43fe-9355-7d8f8fd54771/110_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-abay-joly-senim-a",
+      "unit_no": "1",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/4794e5d7-b820-443b-955a-c24497ea6cd3/1.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/4794e5d7-b820-443b-955a-c24497ea6cd3/1_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-abay-joly-senim-a",
+      "unit_no": "179",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/c93ff8dd-f636-47b9-9379-9c2564adcbb4/179.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/c93ff8dd-f636-47b9-9379-9c2564adcbb4/179_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/trehkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-abay-joly-senim-a",
+      "unit_no": "185",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/a4effefa-f64e-4a59-9269-776739015d5a/185.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/019edf58-144a-768d-8ffb-00522f2525e1/a4effefa-f64e-4a59-9269-776739015d5a/185_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/trehkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-1st-by-bi-luxe",
+      "unit_no": "27",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/dd6d9929-f77e-43a6-a51b-9b0fae4097e7/27.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/dd6d9929-f77e-43a6-a51b-9b0fae4097e7/27_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-1st-by-bi-luxe",
+      "unit_no": "16",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/183a6016-0aad-4bde-8fa9-d828331f3663/16.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/183a6016-0aad-4bde-8fa9-d828331f3663/16_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-1st-by-bi-luxe",
+      "unit_no": "14",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/44569b25-ac97-4fb7-a791-b7d56b43c5f3/14.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/44569b25-ac97-4fb7-a791-b7d56b43c5f3/14_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/dvuhkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-1st-by-bi-luxe",
+      "unit_no": "4",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/2eefb5eb-9c58-4b79-ac1e-2bb3c4282caf/4.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/2eefb5eb-9c58-4b79-ac1e-2bb3c4282caf/4_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/trehkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-1st-by-bi-luxe",
+      "unit_no": "19",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/ef75a4e4-51ee-4c41-a2a7-192561832653/19.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/ef75a4e4-51ee-4c41-a2a7-192561832653/19_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/trehkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bi-1st-by-bi-luxe",
+      "unit_no": "5",
+      "url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/0c5a55b4-9705-4bbf-9cac-5bde134ddb69/5.png",
+      "thumb_url": "https://s3.bi.group/crm-clients-e1csales/layouts/a13e6819-6622-4a84-9f38-79459135a6d6/0c5a55b4-9705-4bbf-9cac-5bde134ddb69/5_400.png",
+      "source_url": "https://bi.group/ru/special/kvartiry-v-almaty/trehkomnatnye",
+      "credit": "BI Group"
+    },
+    {
+      "complex_id": "bazis-adamant-life",
+      "unit_no": "1",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=a02e1cec-84ae-de2b-303c-513e77830aaa",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-life",
+      "unit_no": "5",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=fba825d0-427f-c1bc-882d-c7374153824c",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-life",
+      "unit_no": "22",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=75fefc17-bc7e-a507-7d4e-073d387b0385",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-life",
+      "unit_no": "28",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=b052145b-ccd3-bfe3-79c5-b64cbfe48a29",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-life",
+      "unit_no": "42",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=f21ad3fb-ffc6-31b3-1154-570a3fe9435b",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-life",
+      "unit_no": "45",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=b38ea791-b93b-8d1e-5f0b-660f2859683d",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-life",
+      "unit_no": "128",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=e6ff90d6-9272-6d5d-11fa-37f0ba56d8fa",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "unit_no": "3",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=94379d67-85fe-ca55-adb1-3be8f8516f96",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "unit_no": "4",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=bd58ebf1-8bfd-e3fc-948a-2d799171366e",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "unit_no": "7",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=3bf5d6f0-3a91-7598-ddef-236fa87fa1c0",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "unit_no": "9",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=63f6397c-bf38-0659-b1c3-902eb0ea4996",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "unit_no": "28",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=b51e654c-5bc0-1278-90d1-0095861596b3",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "unit_no": "29",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=43d78b18-c244-3d02-e64a-d4a3a6b3e151",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "unit_no": "31",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=18b3cd72-1f75-84f2-5c70-a28738edee6e",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "unit_no": "50",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=753d2347-82ee-55e5-0ccc-377d4b97d13f",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    },
+    {
+      "complex_id": "bazis-adamant-plus",
+      "unit_no": "99",
+      "url": "https://bazis-online.kz/crmc/rest/prices/getImage?imageId=6fbd4630-1852-3ba8-f958-83e78866e13d",
+      "source_url": "https://sales.bazis.kz/flats",
+      "credit": "BAZIS-A"
+    }
+  ]
+}

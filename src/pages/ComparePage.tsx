@@ -1,15 +1,17 @@
 import { Share } from '@capacitor/share';
 import { IonContent, IonIcon, IonPage } from '@ionic/react';
 import { closeOutline, shareOutline } from 'ionicons/icons';
-import { useEffect, useMemo, type CSSProperties } from 'react';
+import { useEffect, useMemo, useState, type CSSProperties } from 'react';
 import { Link } from 'react-router-dom';
+import { DeveloperPlan } from '../components/DeveloperPlan';
 import { EmptyState } from '../components/EmptyState';
 import { Footprint, ScaleBar } from '../components/Footprint';
+import { ImageViewer } from '../components/ImageViewer';
 import { ListSkeleton } from '../components/LoadState';
 import { Marker } from '../components/Marker';
 import { PageHeader } from '../components/PageHeader';
 import { useAppToast } from '../components/useAppToast';
-import { useApartmentsByIds, useBenchmarks, useMortgagePrograms } from '../data/queries';
+import { useApartmentsByIds, useBenchmarks, useMortgagePrograms, usePlans } from '../data/queries';
 import { buildCompareRows, compareSummary, onlyDifferences, type CompareRow } from '../domain/compare';
 import { formatArea, formatRooms } from '../domain/format';
 import { useCompare } from '../store/compare';
@@ -57,6 +59,12 @@ export function ComparePage() {
   const shown = diffOnly ? onlyDifferences(rows) : rows;
   const list = apartments ?? [];
   const grid = { '--cols': list.length } as CSSProperties;
+
+  // Планировки застройщиков весят до 1,4 МБ — грузим их только по просьбе.
+  const [showPlans, setShowPlans] = useState(false);
+  const { data: plans, isFetching: plansLoading } = usePlans(ids, showPlans);
+  const planList = list.map((a) => plans?.[a.id]).filter((p) => p !== undefined);
+  const [planViewer, setPlanViewer] = useState<number | null>(null);
 
   const share = async () => {
     const text = compareSummary(list);
@@ -129,6 +137,48 @@ export function ComparePage() {
                     <ScaleBar scale="compare" />
                     <span className="secondary">Масштаб общий для всех контуров</span>
                   </div>
+
+                  <button
+                    type="button"
+                    className={`btn-quiet ${styles.sticky}`}
+                    aria-expanded={showPlans}
+                    onClick={() => setShowPlans((v) => !v)}
+                  >
+                    {showPlans ? 'Скрыть планировки застройщиков' : 'Показать планировки застройщиков'}
+                  </button>
+                  {showPlans && (
+                    <>
+                      <div className={styles.plans}>
+                        {list.map((a) => {
+                          const plan = plans?.[a.id];
+                          if (plan) {
+                            return (
+                              <DeveloperPlan
+                                key={a.id}
+                                plan={plan}
+                                compact
+                                onOpen={() => setPlanViewer(planList.indexOf(plan))}
+                              />
+                            );
+                          }
+                          return (
+                            <p key={a.id} className={styles.noPlan}>
+                              {plansLoading ? 'Загружаем…' : 'Застройщик не публикует планировку'}
+                            </p>
+                          );
+                        })}
+                      </div>
+                      <p className={`${styles.planNote} ${styles.sticky}`}>
+                        Планировки из каталогов застройщиков, масштаб у каждой свой. Размеры сравнивайте по контурам выше.
+                      </p>
+                      <ImageViewer
+                        items={planList}
+                        index={planViewer}
+                        onClose={() => setPlanViewer(null)}
+                        title="Планировки застройщиков"
+                      />
+                    </>
+                  )}
 
                   {list.length === 1 && (
                     <p className={`${styles.hint} ${styles.sticky}`}>

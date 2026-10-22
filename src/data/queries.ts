@@ -7,9 +7,11 @@ import {
   toComplex,
   toDataSource,
   toDeveloper,
+  toMedia,
   toMortgageProgram,
 } from './mappers';
-import type { Benchmark } from '../domain/types';
+import { coversByComplex } from '../domain/media';
+import type { Benchmark, Media } from '../domain/types';
 
 function check<T>(result: { data: T | null; error: { message: string } | null }): T {
   if (result.error) throw new Error(result.error.message);
@@ -143,6 +145,53 @@ export function useBenchmarks() {
       for (const b of rows) byCity[b.cityId] = b;
       return byCity;
     },
+  });
+}
+
+/** Фото и интерьеры ЖК в порядке, заданном при сборе. */
+export function useComplexMedia(complexId: string) {
+  return useQuery({
+    queryKey: ['media', 'complex', complexId],
+    enabled: complexId !== '',
+    queryFn: async () =>
+      check(await supabase.from('media').select('*').eq('complex_id', complexId).order('sort')).map(toMedia),
+  });
+}
+
+export function useApartmentPlan(apartmentId: string) {
+  return useQuery({
+    queryKey: ['media', 'plan', apartmentId],
+    enabled: apartmentId !== '',
+    queryFn: async () => {
+      const row = check(
+        await supabase.from('media').select('*').eq('apartment_id', apartmentId).eq('kind', 'plan').maybeSingle(),
+      );
+      return row ? toMedia(row) : null;
+    },
+  });
+}
+
+/** Планировки нескольких квартир — для сравнения. Объект, а не Map: кэш сохраняется в JSON. */
+export function usePlans(apartmentIds: string[], enabled = true) {
+  const sorted = [...apartmentIds].sort();
+  return useQuery({
+    queryKey: ['media', 'plans', sorted],
+    enabled: enabled && sorted.length > 0,
+    queryFn: async () => {
+      const rows = check(await supabase.from('media').select('*').in('apartment_id', sorted).eq('kind', 'plan'));
+      const out: Record<string, Media> = {};
+      for (const m of rows.map(toMedia)) if (m.apartmentId) out[m.apartmentId] = m;
+      return out;
+    },
+  });
+}
+
+/** Обложки всех ЖК одним запросом — для списка ЖК и карты. */
+export function useCovers() {
+  return useQuery({
+    queryKey: ['media', 'covers'],
+    queryFn: async () =>
+      coversByComplex(check(await supabase.from('media').select('*').eq('kind', 'exterior').order('sort')).map(toMedia)),
   });
 }
 

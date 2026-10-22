@@ -1,3 +1,31 @@
+/* Главное фото — во всю ширину экрана, без скруглений: как обложка папки проекта. */
+.hero {
+  margin: -8px calc(var(--gutter) * -1) 16px;
+}
+
+.heroButton {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+.heroCaption {
+  padding: 0 var(--gutter);
+  font-size: 12px;
+  color: var(--concrete);
+}
+
+.heroCaption span {
+  display: inline;
+}
+
+.heroCredit {
+  display: inline;
+}
+
 .title {
   margin-top: 8px;
   font-size: var(--t-xl);

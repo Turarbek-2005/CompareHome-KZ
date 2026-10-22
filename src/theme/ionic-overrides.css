@@ -79,6 +79,14 @@ ion-modal.sheet {
   --backdrop-opacity: 0.32;
 }
 
+/* Просмотр изображений — на весь экран, на тёмном фоне, чтобы фото и чертежи читались. */
+ion-modal.viewer {
+  --width: 100%;
+  --height: 100%;
+  --border-radius: 0;
+  --background: #16191b;
+}
+
 ion-toast.app-toast {
   --background: var(--graphite);
   --color: var(--paper);

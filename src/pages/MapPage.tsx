@@ -5,8 +5,9 @@ import { CitySelect } from '../components/CitySelect';
 import { LazyMapView as MapView } from '../components/LazyMapView';
 import type { MapPoint } from '../components/MapView';
 import { PageHeader } from '../components/PageHeader';
+import { RemoteImage } from '../components/RemoteImage';
 import { SafetyBadge } from '../components/SafetyStatus';
-import { useCities, useCityApartments, useComplexes } from '../data/queries';
+import { useCities, useCityApartments, useComplexes, useCovers } from '../data/queries';
 import { groupByComplex } from '../domain/catalog';
 import { formatCompletion, formatPricePerM2Range, formatPriceShort } from '../domain/format';
 import { useCatalog } from '../store/filters';
@@ -18,6 +19,7 @@ export function MapPage() {
   const { data: cities } = useCities();
   const { data: complexes } = useComplexes(cityId);
   const { data: apartments } = useCityApartments(cityId);
+  const { data: covers } = useCovers();
   const [selected, setSelected] = useState<string | null>(null);
 
   const city = cities?.find((c) => c.id === cityId);
@@ -70,8 +72,14 @@ export function MapPage() {
             <div className={styles.sheet}>
               {selectedComplexes.map((c) => {
                 const s = summaries.get(c.id);
+                const cover = covers?.[c.id];
                 return (
                   <section key={c.id} className={styles.item}>
+                    {cover && (
+                      <span className={styles.cover}>
+                        <RemoteImage src={cover.thumbUrl ?? cover.url} alt="" ratio="16 / 9" />
+                      </span>
+                    )}
                     <h2 className={styles.name}>{c.name}</h2>
                     <p className="secondary">{c.developerName}</p>
                     <SafetyBadge status={c.safety} />

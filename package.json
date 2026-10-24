@@ -14,6 +14,7 @@
     "data:geocode": "tsx scripts/import/geocode-osm.ts",
     "data:seed": "tsx scripts/import/seed-curated.ts",
     "android": "npm run build && cap sync android && cap open android",
+    "apk": "npm run build && cap sync android && cd android && .\\gradlew.bat assembleDebug",
     "assets": "tsx scripts/assets/render-icons.ts && capacitor-assets generate --android --iconBackgroundColor \"#F1F3F0\" --iconBackgroundColorDark \"#1C2023\" --splashBackgroundColor \"#F1F3F0\" --splashBackgroundColorDark \"#1C2023\""
   },
   "dependencies": {

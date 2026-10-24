@@ -27,6 +27,18 @@ setx ANDROID_HOME "%LOCALAPPDATA%\Android\Sdk"
 
 Затем `npm run android` — соберёт веб-часть, синхронизирует её в `android/` и откроет проект в Android Studio, где можно запустить эмулятор или телефон. Иконки и заставка пересобираются командой `npm run assets` из `scripts/assets/render-icons.ts`.
 
+### APK без Android Studio
+
+Достаточно JDK 21 и Android SDK command-line tools. На этой машине они уже стоят в `%LOCALAPPDATA%\Android\jdk-21` и `%LOCALAPPDATA%\Android\Sdk`, `JAVA_HOME` и `ANDROID_HOME` прописаны.
+
+1. Пересоберите APK командой `npm run apk`. Файл появится в `android/app/build/outputs/apk/debug/app-debug.apk`.
+2. Перенесите его на телефон: по USB, через Telegram или Google Drive.
+3. Откройте файл на телефоне и разрешите «Установку из неизвестных источников». Нужен Android 7 или новее.
+
+Это отладочная сборка, подписанная ключом разработчика. Для Google Play нужна release-сборка (`bundleRelease`) со своим ключом. Чтобы новая версия ставилась поверх старой, увеличьте `versionCode` в `android/app/build.gradle`.
+
+Не ставьте `cmdline-tools` 23.0: в этой версии `sdkmanager` заменён новым Android CLI, а его загрузка падала. Подходит 19.0 (`commandlinetools-win-13114758_latest.zip`).
+
 iOS собирается только на macOS: `npx cap add ios`, затем Xcode.
 
 ## Данные
